@@ -73,10 +73,6 @@
                 <li class="nav-item">
                     <a class="nav-link page-scroll" href="#features">FEATURES</a>
                 </li>
-
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#contact">CONTACT</a>
-                </li>
             </ul>
         </div>
     </nav> <!-- end of navbar -->
@@ -93,9 +89,16 @@
                             <h1>AN APP<br>FOR <span id="js-rotating">DEVELOPERS, DESIGNERS, EVERYONE</span></h1>
                             <p class="p-large">Shacli aims to help you gain in productivity.</p>
                             <h5>Download for</h5>
-                            <a class="btn-solid-lg page-scroll" href="#your-link"><i class="fab fa-linux"></i>LINUX</a>
-                            <a class="btn-solid-lg page-scroll" href="#your-link"><i
-                                    class="fab fa-windows"></i>WINDOWS</a>
+                            <div class="text-center">
+                                <a class="btn-solid-lg page-scroll" href="./download-v1/shacli_1.0.0_amd64.deb"><i
+                                        class="fab fa-linux"></i>LINUX
+                                    (.deb)</a>
+                                <a class="btn-solid-lg page-scroll" href="./download-v1/shacli_1.0.0_amd64.snap"><i
+                                        class="fab fa-linux"></i>LINUX
+                                    (.snap)</a>
+                                <a class="btn-solid-lg page-scroll" href="./download-v1/Shacli Setup 1.0.0.exe"><i
+                                        class="fab fa-windows"></i>WINDOWS</a>
+                            </div>
                         </div>
                     </div> <!-- end of col -->
                     <div class="col-lg-6">
@@ -197,53 +200,6 @@
     </div> <!-- end of tabs -->
     <!-- end of features -->
 
-    <!-- Contact -->
-    <div id="contact" class="form">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2>CONTACT</h2>
-                    <ul class="list-unstyled li-space-lg">
-                        <li class="address">Have you found a bug or have something to tell us ?</li>
-                    </ul>
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-            <div class="row">
-                <div class="col-lg-6 offset-lg-3">
-
-                    <!-- Contact Form -->
-                    <form id="contactForm" data-toggle="validator" data-focus="false">
-                        <div class="form-group">
-                            <input type="text" class="form-control-input" id="cname" required>
-                            <label class="label-control" for="cname">Name</label>
-                            <div class="help-block with-errors"></div>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" class="form-control-input" id="cemail" required>
-                            <label class="label-control" for="cemail">Email</label>
-                            <div class="help-block with-errors"></div>
-                        </div>
-                        <div class="form-group">
-                            <textarea class="form-control-textarea" id="cmessage" required></textarea>
-                            <label class="label-control" for="cmessage">Your message</label>
-                            <div class="help-block with-errors"></div>
-                        </div>
-                        <div class="form-group">
-                            <button type="submit" class="form-control-submit-button">SUBMIT MESSAGE</button>
-                        </div>
-                        <div class="form-message">
-                            <div id="cmsgSubmit" class="h3 text-center hidden"></div>
-                        </div>
-                    </form>
-                    <!-- end of contact form -->
-
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of form -->
-    <!-- end of contact -->
-
-
     <!-- Footer -->
     <div class="footer">
         <div class="container">
@@ -263,7 +219,7 @@
                             <li class="media">
                                 <i class="fas fa-square"></i>
                                 <div class="media-body">The project github page <a class="turquoise"
-                                        href="#your-link">goldy98/shacli</a></div>
+                                        href="https://github.com/Goldy98/shacli">goldy98/shacli</a></div>
                             </li>
                         </ul>
                     </div>
